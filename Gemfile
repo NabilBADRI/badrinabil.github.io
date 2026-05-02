@@ -1,5 +1,6 @@
-source 'https://rubygems.org'
-
+source 'https://rubygems.org's 
+group :jekyll_plugins do
+gem 'wdm', '>=0.1.0'
 gem 'jekyll'
 
 # Core plugins that directly affect site building
