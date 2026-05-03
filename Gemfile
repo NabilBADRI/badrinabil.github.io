@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
-gem 'wdm', '>=0.1.0'
-gem 'jekyll'
+  gem 'wdm', '>=0.1.0'
+  gem 'jekyll'
+end
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
@@ -11,6 +12,7 @@ group :jekyll_plugins do
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-get-json'
+    gem 'jekyll-jupyter-notebook'
     gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
